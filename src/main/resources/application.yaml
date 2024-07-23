@@ -13,6 +13,7 @@ spring:
       max-create-connection-time: 2s
       initial-size: 5
       max-size: 10
+    name: usersdb
   flyway:
     url: jdbc:postgresql://localhost:55432/usersdb
     locations: classpath:db/migration
